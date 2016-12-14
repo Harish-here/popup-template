@@ -6,6 +6,9 @@
 .alg_center{
   text-align: center;
 }
+.img-width{
+  width: 50%;
+}
 .popup{
   width:340px;
   min-height:250px;

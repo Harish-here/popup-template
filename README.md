@@ -1,2 +1,2 @@
 # popup-template
-popup template ,Done for Minewhat,Inc (interview purpose)
+popup template made with boostarp with little animation,idel for product suggestions in websites

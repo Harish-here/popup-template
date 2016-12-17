@@ -19,6 +19,9 @@
       <div class="row">
           <div id='firstButton' class="col-md-12 alg_center">
     <!--buttonTemplate will populate here -->
+    <script type="text/javascript" id='buttonTemplate'>
+    <button id= <%= btn %> class="btn btn-default">"<%= btn %>" set</button>&nbsp;
+    </script>
           </div>
       </div>
       <br><br>
@@ -34,14 +37,27 @@
                   </div>
             </div>
         </div>
-    
+<!--image template   --> 
+<script type="text/javascript" id='imageTemplate'>
+<img id="<%= u %>" src="images/r<%= imgNo %>.jpg" class='img-responsive pull-left img-width' />
+</script>
+<!--labelTemplate -->
+<script type="text/javascript" id='labelTemplate'>
+<div class='label_c pull-left'><h5><b>Cotton white Dresses</b></h5>see more</div>
+</script>
+<!-- pcontent -->
+<script type="text/javascript" id='pContent'>
+<div class='col-md-6 col-md-offset-3'><img class='img-responsive pull-left' src="images/p1.jpg" >
+</script>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- bootstrap js -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-
+    <script id='startTag'><div class='col-md-6'></script>
+    <script id='endTag'></div></script>
     <!--cutom script -->
     <script src="js/index.js"></script>   
   </body>
